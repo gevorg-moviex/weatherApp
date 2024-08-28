@@ -2,12 +2,6 @@
     margin: 0;
     padding: 0;
 }
-.main{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
 
 #info{
     display: flex;
@@ -15,9 +9,10 @@
     justify-content: center;
     gap: 20px;
     align-items: center;
+    margin: 100px auto;
     width: 500px;
     height: 500px;
-    border-radius: 5px;
+    border-radius: 5px; 
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
